@@ -1,21 +1,52 @@
 aid: brewster
-name: brewster
-description: brewster is a company surfaced as a portfolio company of slow-ventures, union-square-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brewster.png
+name: Brewster
+description: Brewster was a New York-based mobile contacts startup founded by Steve Greenwood that
+  launched an iOS app in July 2012 offering a "hyperconnected mobile address book" — it merged phone
+  contacts with Google Apps, Facebook, Twitter, Foursquare and LinkedIn profiles, deduplicated them,
+  and kept them self-updating in the cloud while surfacing relationship signals about who a user
+  actually engaged with. The company was backed by Union Square Ventures and Slow Ventures. In October
+  2015 the founding team was acqui-hired by Restaurant Brands International (owner of Burger King and
+  Tim Hortons) without the app or its data, and in March 2016 FullContact acquired Brewster's
+  self-updating address book technology and shut the consumer product down within 30 days. Brewster
+  never published a public developer API, SDK, OpenAPI definition or developer portal, and no API
+  surface survives today. This profile is retained as a historical record only.
 url: https://raw.githubusercontent.com/api-evangelist/brewster/refs/heads/main/apis.yml
 x-type: company
+x-status: defunct
+x-defunct-date: '2016-03'
+x-acquired-by: fullcontact
 x-source: vc-portfolio
 x-backed-by:
 - slow-ventures
 - union-square-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-domain-note: brewster.com no longer belongs to this company — it 302-redirects to
+  brewsterwallcovering.com, an unrelated wallcovering manufacturer. No pointer is wired to it.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Defunct
+- Contacts
+- Address Book
+- Mobile
+- Social
+- Consumer
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +54,21 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
-- type: Website
-  url: https://brewster.com
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/brewster
+- type: LinkedIn
+  url: https://www.linkedin.com/company/brewster-inc
+- type: InvestorProfile
+  name: Union Square Ventures portfolio announcement
+  url: https://usv.com/blog/brewster
+- type: NewsCoverage
+  name: FullContact buys Brewster's technology (TechCrunch, 2016-03-23)
+  url: https://techcrunch.com/2016/03/23/fullcontact-buys-brewsters-technology-after-team-gets-acqui-hired-by-burger-king-owner-rbi/
+- type: NewsCoverage
+  name: Brewster team acqui-hired by RBI (TechCrunch, 2015-10-23)
+  url: https://techcrunch.com/2015/10/23/brewster-contacts-app-team-gets-acqui-hired-by-burger-king-owner-rbi/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
