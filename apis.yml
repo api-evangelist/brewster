@@ -35,7 +35,7 @@ x-tier: stub
 x-tier-reason: defunct-no-api-surface
 x-domain-note: brewster.com no longer belongs to this company — it 302-redirects to
   brewsterwallcovering.com, an unrelated wallcovering manufacturer. No pointer is wired to it.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
